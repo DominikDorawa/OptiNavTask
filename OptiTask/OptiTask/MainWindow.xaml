@@ -1,0 +1,64 @@
+﻿<Window x:Class="OptiTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptiTask"
+        mc:Ignorable="d"
+        Title="OptiTask" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Name="load" Background="Pink" Grid.Column="0"
+                                            Width="150" Height="80" FontSize="20" FontWeight="ExtraBold" 
+                                            Click="load_Click" ClickMode="Press"
+                                             >
+                Wgraj plik
+            </Button>
+            <Button Name="save" Click="save_Click" Width="150" Height="80" FontSize="20" FontWeight="ExtraBold" Grid.Column="1" Background="Pink">
+                Zapisz
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ScrollViewer           VerticalAlignment="Top"
+                                    Width="Auto"
+                                    Height="Auto"
+                                    HorizontalScrollBarVisibility="Disabled"
+                                    VerticalScrollBarVisibility="Auto">
+                <TextBox x:Name="numbers1" Text="{Binding NumbersString, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                                IsReadOnly="True" TextWrapping="Wrap"
+                                                FontSize="15"
+                                                FontWeight="Bold"
+                                                Width="Auto"
+                                                Height="150"
+                     Margin="20,0,20,0"
+                                                Background="AntiqueWhite"/>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2">
+            <ScrollViewer   
+                          Width="Auto"
+                          Height="160"
+                          HorizontalScrollBarVisibility="Disabled"
+                          VerticalScrollBarVisibility="Auto"  
+                          Margin="20,0,20,30" VerticalAlignment="Bottom">
+
+                <TextBox x:Name="numbers2" Text="{Binding NumbersString2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                IsReadOnly="True" TextWrapping="Wrap"
+                                                FontSize="15"
+                                                FontWeight="Bold"
+                                                Width="Auto"
+                                                Height="150"
+                                                Background="AntiqueWhite"/>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

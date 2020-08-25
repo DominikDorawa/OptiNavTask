@@ -1,0 +1,15 @@
+C:\Users\Domek\source\repos\OptiTask\OptiTask\bin\Debug\OptiTask.exe.config
+C:\Users\Domek\source\repos\OptiTask\OptiTask\bin\Debug\OptiTask.exe
+C:\Users\Domek\source\repos\OptiTask\OptiTask\bin\Debug\OptiTask.pdb
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\MainWindow.g.cs
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\App.g.cs
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask_MarkupCompile.cache
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask_MarkupCompile.lref
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\MainWindow.baml
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.g.resources
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.Properties.Resources.resources
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.csproj.GenerateResource.cache
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.csproj.CoreCompileInputs.cache
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.exe
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.pdb
+C:\Users\Domek\source\repos\OptiTask\OptiTask\obj\Debug\OptiTask.csprojAssemblyReference.cache
